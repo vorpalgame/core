@@ -1,8 +1,9 @@
 package bus
 
 import (
-	"golang.org/x/mobile/event/key"
 	"unicode"
+
+	"golang.org/x/mobile/event/key"
 )
 
 func NewKeyEvent(key key.Event) KeyEvent {
